@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coppermobile.form.ViewProfileFragment">
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Rohan Taneja"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:background="@drawable/button_rounded"
+        android:padding="10dp"
+        android:id="@+id/user_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/user_name"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/add_user_image" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="rohan.t@coppermobile.com"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_email"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="9891417273"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="IIT Admission Portal v1.0"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

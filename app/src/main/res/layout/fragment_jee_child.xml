@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FormChildFragments.JEEChildFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/jee_main_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:padding="5dp"
+            android:text="@string/jee_main"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_main_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_main_text_view"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_main_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/score_max_marks_360"
+                android:inputType="number"
+                android:maxLength="3"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_main_category_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_main_score"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_main_category_rank_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/category_rank"
+                android:inputType="number"
+                android:maxLength="7"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_main_overall_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_main_category_rank"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_main_overall_rank_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/overall_rank"
+                android:inputType="number"
+                android:maxLength="7"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/jee_adv_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_main_overall_rank"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:padding="5dp"
+            android:text="@string/jee_advanced"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_adv_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_adv_text_view"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_adv_score_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/score_max_marks_480"
+                android:inputType="number"
+                android:maxLength="3"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_adv_category_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_adv_score"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_adv_category_rank_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/category_rank"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jee_adv_overall_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_adv_category_rank"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/jee_adv_overall_rank_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/overall_rank"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/jee_tab_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jee_adv_overall_rank"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/save"
+            android:textColor="#000000" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

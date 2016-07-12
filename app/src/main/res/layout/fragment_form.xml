@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coppermobile.form.FormFragment">
+
+    <LinearLayout
+        android:id="@+id/buttonsLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPersonal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Personal"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonParents"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Parents"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonAcademic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Academic"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonJEE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="JEE"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="@android:color/white"
+        android:id="@+id/child_fragment_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonsLinearLayout" />
+
+</RelativeLayout>
+

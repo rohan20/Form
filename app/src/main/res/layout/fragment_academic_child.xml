@@ -1,0 +1,250 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:background="#FFFFFF"
+    tools:context=".FormChildFragments.AcademicChildFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/academic_class_10_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/academic_year_of_passing_class_10_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/year_of_passing_n_class_10th"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/academic_year_class_10_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/academic_class_12_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_class_10_linear_layout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/academic_year_of_passing_class_12_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/year_of_passing_n_class_12th"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/academic_year_class_12_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/academic_place_class_12_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_class_12_linear_layout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/academic_place_class_12_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/place_of_exam_n_class_12th"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/academic_place_class_12_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/academic_school_board_class_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_place_class_12_linear_layout"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/academic_school_board_class_12_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/school_board_class_12th"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/academic_name_of_exam_class_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_school_board_class_12"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/academic_name_of_exam_class_12_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/name_of_exam_class_12th"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/academic_percentage_class_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_name_of_exam_class_12"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/academic_percentage_class_12_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/aggregate_percentage_class_12th"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/academic_name_of_school_class_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_percentage_class_12"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/academic_name_of_school_class_12_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/name_of_school_class_12th"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/academic_address_of_school_class_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_name_of_school_class_12"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:imeOptions="actionNext"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+            <EditText
+                android:id="@+id/academic_address_of_school_class_12_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/address_of_school_class_12th"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/academic_tab_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/academic_address_of_school_class_12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/save"
+            android:textColor="#000000" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

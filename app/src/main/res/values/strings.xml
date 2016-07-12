@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="iit_logo">IIT Logo</string>
+    <string name="iit_admission_portal">IIT Admission Portal</string>
+    <string name="skip">Skip</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="candidate_s_name">Candidate\'s Name</string>
+    <string name="state_of_elgibility">State of Eligibility</string>
+    <string name="nationality">Nationality</string>
+    <string name="are_you_the_only_child_of_your_parents_for_girl_child_only">Are you the only child of your parents? (For girl child only)</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="next">NEXT</string>
+    <string name="person_with_disability_pwd">Person with disability (PwD)</string>
+    <string name="occupation">Occupation</string>
+    <string name="name">Name</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="number_with_std_code">Number with STD Code</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="state">State</string>
+    <string name="city_town_village">City/Town/Village</string>
+    <string name="locality">Locality</string>
+    <string name="address">Address</string>
+    <string name="permanent_residence_details">Permanent Residence Details:</string>
+    <string name="annual_income_in_rupees">Annual Income (in Rupees):</string>
+    <string name="qualification">Qualification:</string>
+    <string name="mother_s_details">Mother\'s Details:</string>
+    <string name="father_s_details">Father\'s Details:</string>
+    <string name="overall_rank">Overall Rank</string>
+    <string name="category_rank">Category Rank</string>
+    <string name="score_max_marks_360">Score (Max Marks = 360)</string>
+    <string name="jee_main">JEE Main</string>
+    <string name="jee_advanced">JEE Advanced</string>
+    <string name="save_details">Save Details</string>
+    <string name="score_max_marks_480">Score (Max Marks = 480)</string>
+    <string name="year_of_passing_n_class_10th">Year of passing\n (Class 10th)</string>
+    <string name="year_of_passing_n_class_12th">Year of passing\n (Class 12th)</string>
+    <string name="place_of_exam_n_class_12th">Place of exam\n (Class 12th)</string>
+    <string name="school_board_class_12th">School Board (Class 12th)</string>
+    <string name="name_of_exam_class_12th">Name of exam (Class 12th)</string>
+    <string name="aggregate_percentage_class_12th">Aggregate Percentage (Class 12th)</string>
+    <string name="name_of_school_class_12th">Name of school (Class 12th)</string>
+    <string name="address_of_school_class_12th">Address of school (Class 12th)</string>
+    <string name="haven_t_registered_yet_sign_up">Haven\'t registered yet? Sign up!</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+</resources>

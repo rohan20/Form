@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.coppermobile.form.DetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/details_personal_info_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Personal Information"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_personal_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_personal_info_text_view"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/details_parents_info_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_personal_details"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Parents Information"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_parents_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_parents_info_text_view"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/details_academic_info_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_parents_details"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Academic Information"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_academics_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_academic_info_text_view"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/details_jee_info_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_academics_details"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="JEE Information"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_jee_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_jee_info_text_view"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

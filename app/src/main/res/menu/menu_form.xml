@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_profile"
+        android:title="View Profile"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/save"
+        android:title="Save all data"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coppermobile.form.SignInFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_material_edit_text"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/colorPrimary"
+        app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_material_edit_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/password_material_edit_text"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/colorPrimary"
+        app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
+
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email / Mobile Number"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_material_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_rounded"
+        android:text="@string/sign_in"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/haveNotRegisteredYetTextView"
+        android:fontFamily="serif"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_below="@id/submit_sign_in_button"
+        android:text="@string/haven_t_registered_yet_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
