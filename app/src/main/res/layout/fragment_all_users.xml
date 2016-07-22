@@ -14,8 +14,7 @@
 
     <TextView
         android:id="@+id/all_users_total_users"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
+        android:textColor="#757575"
         android:fontFamily="serif"
         android:gravity="center"
         android:padding="10dp"

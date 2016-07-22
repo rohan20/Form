@@ -17,7 +17,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -28,8 +28,8 @@
                 android:hint="@string/candidate_s_name"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -43,7 +43,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <AutoCompleteTextView
@@ -52,8 +52,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/state_of_elgibility"
                 android:inputType="textCapWords"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -94,7 +94,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="@string/date_of_birth"
-            android:textColor="#000000"
+            android:textColor="#5f5f5f"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -150,7 +150,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/person_with_disability_pwd"
-                android:textColor="#000000" />
+                android:textColor="#5f5f5f" />
 
             <com.roughike.swipeselector.SwipeSelector
                 android:id="@+id/yes_no_pwd"
@@ -178,7 +178,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/are_you_the_only_child_of_your_parents_for_girl_child_only"
-                android:textColor="#000000" />
+                android:textColor="#5f5f5f" />
 
             <com.roughike.swipeselector.SwipeSelector
                 android:id="@+id/yes_no_girl_child"
@@ -199,7 +199,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <AutoCompleteTextView
@@ -211,7 +211,7 @@
                 android:layout_marginStart="5dp"
                 android:hint="@string/nationality"
                 android:inputType="textCapWords"
-                android:textColor="#000000"
+                android:textColor="#5f5f5f"
                 android:textColorHint="@android:color/black"
                 android:textSize="20sp">
 
@@ -228,7 +228,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_rounded"
             android:text="@string/save"
-            android:textColor="#000000" />
+            android:textColor="#5f5f5f" />
 
     </RelativeLayout>
 

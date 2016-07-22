@@ -32,7 +32,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -43,8 +43,8 @@
                 android:hint="@string/name"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -58,7 +58,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -69,8 +69,8 @@
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -107,7 +107,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -118,8 +118,8 @@
                 android:hint="@string/occupation"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -168,7 +168,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -179,8 +179,8 @@
                 android:hint="@string/name"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -194,7 +194,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -205,8 +205,8 @@
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -243,7 +243,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -254,8 +254,8 @@
                 android:hint="@string/occupation"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -304,7 +304,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -315,8 +315,8 @@
                 android:hint="@string/address"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -330,7 +330,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -341,8 +341,8 @@
                 android:hint="@string/locality"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -356,7 +356,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -367,8 +367,8 @@
                 android:hint="@string/city_town_village"
                 android:inputType="textCapWords"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -382,7 +382,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <AutoCompleteTextView
@@ -391,8 +391,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/state"
                 android:inputType="textCapWords"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -406,7 +406,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -417,8 +417,8 @@
                 android:hint="@string/pin_code"
                 android:inputType="number"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -433,7 +433,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:imeOptions="actionNext"
-            android:textColorHint="#000000"
+            android:textColorHint="#5f5f5f"
             app:hintTextAppearance="@style/MaterialEditTextFloatingLabel">
 
             <EditText
@@ -444,8 +444,8 @@
                 android:hint="@string/number_with_std_code"
                 android:inputType="phone"
                 android:maxLines="1"
-                android:textColor="#000000"
-                android:textColorHint="#000000"
+                android:textColor="#5f5f5f"
+                android:textColorHint="#5f5f5f"
                 android:textSize="20sp" />
 
         </android.support.design.widget.TextInputLayout>
@@ -459,7 +459,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_rounded"
             android:text="@string/save"
-            android:textColor="#000000" />
+            android:textColor="#5f5f5f" />
 
 
     </RelativeLayout>

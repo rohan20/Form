@@ -83,13 +83,13 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
 
                         DetailsFragment detailsFragment = new DetailsFragment();
                         detailsFragment.setArguments(b);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout_for_fragments, detailsFragment).commit();
+                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout_for_fragments, detailsFragment).addToBackStack(null).commit();
 
                     } else {
 
                         FormFragment formFragment = new FormFragment();
                         formFragment.setArguments(b);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout_for_fragments, formFragment).commit();
+                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout_for_fragments, formFragment).addToBackStack(null).commit();
                     }
 
                     Toast.makeText(getActivity(), "Hello " + currentUser.getmUserFirstName() + " " + currentUser.getmUserLastName(), Toast.LENGTH_SHORT).show();
