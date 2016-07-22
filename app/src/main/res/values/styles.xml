@@ -9,7 +9,7 @@
     </style>
 
     <style name="swipeSelectorText" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">#5f5f5f</item>
     </style>
 
     <style name="SpinnerTheme" parent="Theme.AppCompat">

@@ -59,11 +59,11 @@
     </LinearLayout>
 
     <FrameLayout
-        android:background="@android:color/white"
         android:id="@+id/child_fragment_frame_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/buttonsLinearLayout" />
+        android:layout_below="@id/buttonsLinearLayout"
+        android:background="@android:color/white" />
 
 </RelativeLayout>
 

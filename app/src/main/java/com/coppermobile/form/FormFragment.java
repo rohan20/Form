@@ -77,6 +77,7 @@ public class FormFragment extends Fragment implements View.OnClickListener, Pers
         super.onStart();
 
         View v = getView();
+
         ButterKnife.bind(this, v);
         initialize();
     }
@@ -276,6 +277,7 @@ public class FormFragment extends Fragment implements View.OnClickListener, Pers
 
         ParentsChildFragment parentsChildFragment = new ParentsChildFragment();
         getChildFragmentManager().beginTransaction().replace(R.id.child_fragment_frame_layout, parentsChildFragment).commit();
+        bParents.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.button_rounded_white_border, null));
     }
 
     @Override
@@ -289,6 +291,7 @@ public class FormFragment extends Fragment implements View.OnClickListener, Pers
 
         AcademicChildFragment academicChildFragment = new AcademicChildFragment();
         getChildFragmentManager().beginTransaction().replace(R.id.child_fragment_frame_layout, academicChildFragment).commit();
+        bAcademic.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.button_rounded_white_border, null));
 
     }
 
@@ -304,6 +307,7 @@ public class FormFragment extends Fragment implements View.OnClickListener, Pers
 
         JEEChildFragment jeeChildFragment = new JEEChildFragment();
         getChildFragmentManager().beginTransaction().replace(R.id.child_fragment_frame_layout, jeeChildFragment).commit();
+        bJEE.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.button_rounded_white_border, null));
 
 
     }
